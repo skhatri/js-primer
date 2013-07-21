@@ -1,6 +1,5 @@
 //convention when u are creating
 //a class use Capitalize
-
 function Student(name) {
     //we are ensuring that Student is called properly
     //here we are checking if they called with new
@@ -109,6 +108,11 @@ SpanishStudent.prototype.getName = function () {
     return "Hola!!! " + this.name;
 };
 
+
+SpanishStudent.prototype.setName = function (name) {
+    this.name = name;
+};
+
 var spanishGuy = new SpanishStudent("Kaka");
 console.log(spanishGuy.getName());
 //here we are explicitly calling getName from SpanishStudent
@@ -198,9 +202,7 @@ for (x in mathGuy) {
 console.log("Math's own property ");
 //fake hasOwnproperty returning true always
 //this is the reason mathGuy.hasOwnProperty wont always work
-MathStudent.prototype.hasOwnProperty = function() {
-    return true;
-};
+
 
 console.log("Math's property using has Own property check");
 for (var x in mathGuy) {
@@ -212,3 +214,6 @@ for (var x in mathGuy) {
         console.log("real " + x + " " + " " + (typeof mathGuy[x]));
     }
 }
+
+
+

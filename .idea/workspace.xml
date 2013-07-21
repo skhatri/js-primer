@@ -8,6 +8,20 @@
     <file path="/pizza.js" changelist="b97d2bdd-dfa5-4e53-88de-3997ea059d8b" time="1372576411291" ignored="false" />
     <file path="/pizza2.js" changelist="b97d2bdd-dfa5-4e53-88de-3997ea059d8b" time="1372588082950" ignored="false" />
     <file path="/all.html" changelist="b97d2bdd-dfa5-4e53-88de-3997ea059d8b" time="1372578029727" ignored="false" />
+    <file path="$PROJECT_DIR$/../week1/public/scripts/week1.js" changelist="b97d2bdd-dfa5-4e53-88de-3997ea059d8b" time="1372590511403" ignored="false" />
+    <file path="/week1.js" changelist="b97d2bdd-dfa5-4e53-88de-3997ea059d8b" time="1372590090479" ignored="false" />
+    <file path="/week2.js" changelist="b97d2bdd-dfa5-4e53-88de-3997ea059d8b" time="1372591474548" ignored="false" />
+    <file path="$PROJECT_DIR$/../week1/public/scripts/week2.js" changelist="b97d2bdd-dfa5-4e53-88de-3997ea059d8b" time="1372591594144" ignored="false" />
+    <file path="$PROJECT_DIR$/../week1/public/index.html" changelist="b97d2bdd-dfa5-4e53-88de-3997ea059d8b" time="1372590407804" ignored="false" />
+    <file path="/index.html" changelist="b97d2bdd-dfa5-4e53-88de-3997ea059d8b" time="1372590407343" ignored="false" />
+    <file path="/Dummy.txt" changelist="b97d2bdd-dfa5-4e53-88de-3997ea059d8b" time="1372591677480" ignored="false" />
+    <file path="/001_truthy_falsy.js" changelist="b97d2bdd-dfa5-4e53-88de-3997ea059d8b" time="1373772376082" ignored="false" />
+    <file path="/003_types.js" changelist="b97d2bdd-dfa5-4e53-88de-3997ea059d8b" time="1373772937818" ignored="false" />
+    <file path="/004_type_array.js" changelist="b97d2bdd-dfa5-4e53-88de-3997ea059d8b" time="1373774631704" ignored="false" />
+    <file path="/005_objects.js" changelist="b97d2bdd-dfa5-4e53-88de-3997ea059d8b" time="1373776145222" ignored="false" />
+    <file path="/006_others.js" changelist="b97d2bdd-dfa5-4e53-88de-3997ea059d8b" time="1373780324088" ignored="false" />
+    <file path="/todo.txt" changelist="b97d2bdd-dfa5-4e53-88de-3997ea059d8b" time="1373781140788" ignored="false" />
+    <file path="$PROJECT_DIR$/../week3/todo.txt" changelist="b97d2bdd-dfa5-4e53-88de-3997ea059d8b" time="1373781142960" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +40,17 @@
     <favorites_list name="week2" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="006_others.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/006_others.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="74" column="13" selection-start="1673" selection-end="1673" vertical-scroll-proportion="0.36290324">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -39,10 +63,11 @@
         <option value="$PROJECT_DIR$/pizza.js" />
         <option value="$PROJECT_DIR$/content.html" />
         <option value="$PROJECT_DIR$/pizza2.js" />
+        <option value="$PROJECT_DIR$/all.html" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/001_truthy_falsy.js" />
         <option value="$PROJECT_DIR$/002_number_types.js" />
         <option value="$PROJECT_DIR$/003_types.js" />
-        <option value="$PROJECT_DIR$/all.html" />
         <option value="$PROJECT_DIR$/004_type_array.js" />
         <option value="$PROJECT_DIR$/005_objects.js" />
         <option value="$PROJECT_DIR$/006_others.js" />
@@ -51,9 +76,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="10" />
-    <option name="y" value="31" />
+    <option name="y" value="22" />
     <option name="width" value="1260" />
-    <option name="height" value="706" />
+    <option name="height" value="704" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -107,6 +132,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/006_others.js" />
     <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RunManager" selected="Node.js.pizza2">
@@ -120,6 +146,9 @@
     </configuration>
     <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug">
       <node-js-remote-debug />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="$PROJECT_DIR$/../../../../local/bin/node" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="XSLT" factoryName="XSLT">
@@ -138,12 +167,9 @@
       <JdkChoice value="FROM_MODULE" />
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="$PROJECT_DIR$/../../../../local/bin/node" working-dir="$PROJECT_DIR$">
-      <method />
-    </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
       <method />
@@ -153,7 +179,7 @@
       <ConfigurationWrapper RunnerId="NodeJS.run" />
       <method />
     </configuration>
-    <configuration default="false" name="pizza2" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="$PROJECT_DIR$/../../../../local/bin/node" path-to-js-file="005_objects.js" working-dir="$PROJECT_DIR$">
+    <configuration default="false" name="pizza2" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="$PROJECT_DIR$/../../../../local/bin/node" path-to-js-file="006_others.js" working-dir="$PROJECT_DIR$">
       <RunnerSettings RunnerId="NodeJS.debug" />
       <RunnerSettings RunnerId="NodeJS.run" />
       <ConfigurationWrapper RunnerId="NodeJS.debug" />
@@ -175,25 +201,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="31" width="1260" height="706" extended-state="0" />
-    <editor active="false" />
+    <frame x="10" y="22" width="1260" height="704" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497979" sideWeight="0.670068" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497979" sideWeight="0.6849315" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39965987" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32993197" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31506848" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -261,30 +287,63 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/001_truthy_falsy.js">
+    <entry file="file://$PROJECT_DIR$/content.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/006_others.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="24" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="23" selection-start="911" selection-end="911" vertical-scroll-proportion="-11.541667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="17" selection-start="84" selection-end="84" vertical-scroll-proportion="0.28846154" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001_truthy_falsy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="1" selection-start="457" selection-end="457" vertical-scroll-proportion="0.9677419">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/002_number_types.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="57" selection-end="57" vertical-scroll-proportion="0.16393442">
+        <state line="23" column="20" selection-start="395" selection-end="395" vertical-scroll-proportion="0.57258064">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/003_types.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="172" selection-end="172" vertical-scroll-proportion="0.57377046">
+        <state line="89" column="0" selection-start="1926" selection-end="1926" vertical-scroll-proportion="0.8145161">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/004_type_array.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="0.24590164">
+        <state line="203" column="7" selection-start="4329" selection-end="4329" vertical-scroll-proportion="0.8951613">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/005_objects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="216" column="0" selection-start="6667" selection-end="6667" vertical-scroll-proportion="0.7741935">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -293,23 +352,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/006_others.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="94" selection-end="94" vertical-scroll-proportion="0.57377046">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/005_objects.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="205" column="9" selection-start="6290" selection-end="6290" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="23" selection-start="911" selection-end="911" vertical-scroll-proportion="0.39181286">
+        <state line="74" column="13" selection-start="1673" selection-end="1673" vertical-scroll-proportion="0.36290324">
           <folding />
         </state>
       </provider>

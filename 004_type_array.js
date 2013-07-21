@@ -18,6 +18,7 @@ function print(arr) {
 print(students);
 //removed the student at index 1
 delete students[1];
+console.log("After Deleting");
 print(students);
 
 var display = students.join(" and ");
@@ -41,8 +42,18 @@ console.log(typeof new Object());
 
 //where it differs is Array will have Array in toString()
 //when called using Object.prototype
-console.log(Object.prototype.toString.call(students));
+console.log(Object.prototype.toString.call(Number(1)));
+console.log(Object.prototype.toString.call(students));  //[object Array]
 console.log(Object.prototype.toString.call(new Object()));
+
+function isArray(amitabh) {
+    console.log(amitabh + " Is the parameter");
+    return Object.prototype.toString.call(amitabh) === "[object Array]";
+};
+
+console.log("Ok check for array candidate is " + Number(1) + " " + isArray(Number(1)));
+console.log("Ok check for array candidate is " + students + " " + isArray(students));
+
 
 //before and after sorting
 print(students);
@@ -53,7 +64,7 @@ var a = [1, 2, 45, 32, 4, 2323, undefined];
 
 //we are creating new array b out of a.
 //
-var b = a.slice();
+var b = a.slice(1, 3);
 console.log("B");
 b.sort();
 print(b);
@@ -107,6 +118,8 @@ print(a);
 //second argument is numberof items to delete
 //other arguments are items to be added at delete position
 //after the delete is completed.
+print(a);
+console.log("after splice");
 a.splice(0, 1, 6, 16);
 print(a);
 
@@ -174,6 +187,12 @@ console.log("printHello function name is " + printHello.name);
 a.forEach(function (item) {
     console.log(item);
 });
+
+for (var i=0; i< a.length; i++) {
+    var item = a[i];
+    console.log(item);
+}
+
 
 
 var printIt = function (item) {

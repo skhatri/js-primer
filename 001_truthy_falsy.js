@@ -21,6 +21,8 @@ console.log(!!undefined);
 //Boolean(val)  or !!val
 
 var myFalseValues = [undefined, 0, null, "", false, NaN];
-for (var i = 0; i < myFalseValues.length; i += 1) {
+
+
+for (var i = 0, max = myFalseValues.length; i < max; i += 1) {
     console.log(!!myFalseValues[i]);
 }

@@ -18,7 +18,7 @@ var x = 15;
 console.log("in hex " + x.toString(16));
 console.log("in dec " + x.toString(10));
 console.log("in oct " + x.toString(8));
-console.log("in oct " + x.toString(2));
+console.log("in bin " + x.toString(2));
 
 
 console.log(result);
